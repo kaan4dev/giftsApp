@@ -13,6 +13,10 @@
 		7FC815EF2BD70F410003CF29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC815EE2BD70F410003CF29 /* Preview Assets.xcassets */; };
 		7FC815F72BD7127E0003CF29 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC815F62BD7127E0003CF29 /* CircleImage.swift */; };
 		7FC815FA2BD714DF0003CF29 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC815F92BD714DF0003CF29 /* MapView.swift */; };
+		7FDEBB992BDBBE360072A2C3 /* giftData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FDEBB982BDBBE360072A2C3 /* giftData.json */; };
+		7FDEBB9B2BDBBE540072A2C3 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEBB9A2BDBBE540072A2C3 /* Gift.swift */; };
+		7FDEBB9F2BDBC1360072A2C3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEBB9E2BDBC1360072A2C3 /* ModelData.swift */; };
+		7FDEBBA32BDBC2340072A2C3 /* GiftRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEBBA22BDBC2340072A2C3 /* GiftRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		7FC815EE2BD70F410003CF29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FC815F62BD7127E0003CF29 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		7FC815F92BD714DF0003CF29 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7FDEBB982BDBBE360072A2C3 /* giftData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = giftData.json; sourceTree = "<group>"; };
+		7FDEBB9A2BDBBE540072A2C3 /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		7FDEBB9E2BDBC1360072A2C3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		7FDEBBA22BDBC2340072A2C3 /* GiftRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,10 @@
 		7FC815E62BD70F3E0003CF29 /* giftsApp */ = {
 			isa = PBXGroup;
 			children = (
-				7FC815FC2BD71C220003CF29 /* Views */,
 				7FC815FB2BD71C1B0003CF29 /* Main */,
+				7FDEBBA02BDBC1890072A2C3 /* Model */,
+				7FC815FC2BD71C220003CF29 /* Views */,
+				7FDEBBA12BDBC1A70072A2C3 /* Resources */,
 				7FC815ED2BD70F410003CF29 /* Preview Content */,
 			);
 			path = giftsApp;
@@ -85,8 +95,26 @@
 				7FC815E92BD70F3E0003CF29 /* ContentView.swift */,
 				7FC815F62BD7127E0003CF29 /* CircleImage.swift */,
 				7FC815F92BD714DF0003CF29 /* MapView.swift */,
+				7FDEBBA22BDBC2340072A2C3 /* GiftRow.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7FDEBBA02BDBC1890072A2C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEBB9A2BDBBE540072A2C3 /* Gift.swift */,
+				7FDEBB9E2BDBC1360072A2C3 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FDEBBA12BDBC1A70072A2C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEBB982BDBBE360072A2C3 /* giftData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +177,7 @@
 			files = (
 				7FC815EF2BD70F410003CF29 /* Preview Assets.xcassets in Resources */,
 				7FC815EC2BD70F410003CF29 /* Assets.xcassets in Resources */,
+				7FDEBB992BDBBE360072A2C3 /* giftData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC815EA2BD70F3E0003CF29 /* ContentView.swift in Sources */,
+				7FDEBB9B2BDBBE540072A2C3 /* Gift.swift in Sources */,
 				7FC815FA2BD714DF0003CF29 /* MapView.swift in Sources */,
+				7FDEBBA32BDBC2340072A2C3 /* GiftRow.swift in Sources */,
 				7FC815E82BD70F3E0003CF29 /* giftsAppApp.swift in Sources */,
 				7FC815F72BD7127E0003CF29 /* CircleImage.swift in Sources */,
+				7FDEBB9F2BDBC1360072A2C3 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
